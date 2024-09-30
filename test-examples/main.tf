@@ -368,3 +368,4 @@ module "private_endpoint_azure_app_insight_private_link_scope" {
   dns_zone_name           = "privatelink.oms.opinsights.azure.com"
   dns_resource_group_name = data.azurerm_resource_group.example.name
 }
+
